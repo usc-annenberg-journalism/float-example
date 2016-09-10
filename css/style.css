@@ -1,0 +1,108 @@
+/* i'm a css comment! */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333333; /* charcoal */
+	background: url('../images/bracelet.jpg') no-repeat center top;
+	background-color: #333;
+	/* background-size: 100%; */
+	/*background-size: cover; */
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: red;
+	font-weight: normal;
+	font-family: Georgia, serif;
+}
+
+h2 {
+	font-style: italic;
+}
+
+p {
+	color: #8A91E6; /* this is periwinkle */
+	font-size: 14px;
+}
+
+a {
+	color: fuchsia;
+}
+
+.container {
+	width: 960px;
+	background: #fff; /* white */
+	margin: 0 auto;
+}
+
+.blue {
+	color: #71D4F5; /* sky blue */
+}
+
+/* floating columns */
+
+.bigboi {
+	background: yellow;
+	width: 600px;
+	padding: 10px;
+}
+
+.andre3000 {
+	background: fuchsia;
+	width: 300px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+/* float properties */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/* navigation styles */
+
+nav {
+
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	padding: 5px 10px;
+	background: purple;
+	margin: 0 5px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover {
+	color: pink;
+}
+
+
+
+
+
+
+
+
